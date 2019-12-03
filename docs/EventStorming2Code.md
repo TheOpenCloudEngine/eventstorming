@@ -319,7 +319,7 @@ Download Archive를 선택하면 Template을 선택할 수 있으며, EventStrom
           - substitutions._PROJECT_NAME: 항목에서 어떤 service 와 deploy 명으로
             배포를 할지 정해지는데, 해당 부분을 변경해 줘야한다.
         
-          - CLOUDSDK_COMPUTE_ZON: 설정되어있는 Zone 은 도쿄(asia-northeast1-a)
+          - CLOUDSDK_COMPUTE_ZONE: 설정되어있는 Zone 은 도쿄(asia-northeast1-a)
             로 설정이 되어있다.
         
           - CLOUDSDK_CONTAINER_CLUSTER: 클러스터 이름은 standard-cluster-1 으로
