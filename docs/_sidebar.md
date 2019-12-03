@@ -1,4 +1,7 @@
-- Test
-  - [Getting Started](getting-start.md)
-- [test1](test1.md)
-- [test2](test2.md)
+- 개요
+  - [Getting Started](getting-started.md)
+- DDD
+    - [test1](DomainDrivenDesign.md)
+- EventStorming
+    - [OfflineEventStorming](OfflineEventStorming.md)
+    - [EventStorming2Code](EventStorming2Code.md)

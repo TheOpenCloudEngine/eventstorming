@@ -7,4 +7,4 @@
 > EventStorming Online Tool
 
 [GitHub](https://github.com/TheOpenCloudEngine/EventStorming)   
-[Get Started](getting-start.md)
+[Get Started](getting-started.md)
