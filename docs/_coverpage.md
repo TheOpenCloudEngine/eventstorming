@@ -2,7 +2,7 @@
 
 <img src="logo_bright.png" width="150px">
 
-# uEngine EventStormin <small>0.1.3</small>
+# uEngine EventStorming
 
 > EventStorming Online Tool
 
