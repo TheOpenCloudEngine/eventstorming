@@ -316,13 +316,13 @@ Download Archive를 선택하면 Template을 선택할 수 있으며, EventStrom
       - Deploy 단계에서는 GKE 에 배포를 하게 되는데 이때 주의사항은 클러스터 이름과 Zone 을 설정해 줘야한다.
         아래 3가지 항목을 사용자에 맞추어 필수적으로 변경을 해줘야 한다.
         
-          - substitutions.\_PROJECT\_NAME: 항목에서 어떤 service 와 deploy 명으로
+          - substitutions._PROJECT_NAME: 항목에서 어떤 service 와 deploy 명으로
             배포를 할지 정해지는데, 해당 부분을 변경해 줘야한다.
         
-          - CLOUDSDK\_COMPUTE\_ZON: 설정되어있는 Zone 은 도쿄(asia-northeast1-a)
+          - CLOUDSDK_COMPUTE_ZON: 설정되어있는 Zone 은 도쿄(asia-northeast1-a)
             로 설정이 되어있다.
         
-          - CLOUDSDK\_CONTAINER\_CLUSTER: 클러스터 이름은 standard-cluster-1 으로
+          - CLOUDSDK_CONTAINER_CLUSTER: 클러스터 이름은 standard-cluster-1 으로
             default 클러스터 이름이다.
 
 #### 선행사항
@@ -434,11 +434,14 @@ GCB 트리거 생성은 아래와 같은 순서대로 진행을
 
 ###### cloudBuild.yaml 파일의 option 부분에 클러스터 Zone 과 이름이 일치하는지 확인 한다.
 
-**options**:  
-**env**:  
-*\# \# location/name of GKE cluster (used by all kubectl commands)  
-*- CLOUDSDK\_COMPUTE\_ZONE=asia-northeast1-a  
-\- CLOUDSDK\_CONTAINER\_CLUSTER=standard-cluster-1
+```yaml
+options :  
+    env:  
+    ## location/name of GKE cluster (used by all kubectl commands)  
+    - CLOUDSDK_COMPUTE_ZONE=asia-northeast1-a  
+    - CLOUDSDK_CONTAINER_CLUSTER=standard-cluster-1
+
+```
 
 ## 커스텀 템플릿 (Custom Template)
 
@@ -465,29 +468,41 @@ Value값을 가지고 오는 엔진이다.
 
 1.  HelloWorld.py 파일을 아래와 같이 생성한다.
 
-<table>
-<tbody>
-<tr class="odd">
-<td><p>forEach: BoundedContext ----- 1</p>
-<p>fileName: HelloWorld.py ----- 2</p>
-<p>path: {{boundedContext}}/{{{options.packagePath}}} ----- 3</p>
-<p>---</p>
-<p>print(&quot;BoundedContext: {{name}}&quot;);</p>
-<p>{{#aggregates}}</p>
-<p>print(&quot;Aggregate: {{name}}&quot;);</p>
-<p>{{#events}}</p>
-<p>print(&quot;event: {{name}}&quot;);</p>
-<p>{{/events}}</p>
-<p>{{#commands}}</p>
-<p>print(&quot;command: {{name}}&quot;);</p>
-<p>{{/commands}}</p>
-<p>{{#policies}}</p>
-<p>print(&quot;policy: {{name}}&quot;);</p>
-<p>{{/policies}}</p>
-<p>{{/aggregates}}</p></td>
-</tr>
-</tbody>
-</table>
+```python
+forEach: BoundedContext ----- 1
+
+fileName: HelloWorld.py ----- 2
+
+path: {{boundedContext}}/{{{options.packagePath}}} ----- 3
+
+---
+
+print("BoundedContext: {{name}}");
+
+{{#aggregates}}
+
+print("Aggregate: {{name}}");
+
+{{#events}}
+
+print("event: {{name}}");
+
+{{/events}}
+
+{{#commands}}
+
+print("command: {{name}}");
+
+{{/commands}}
+
+{{#policies}}
+
+print("policy: {{name}}");
+
+{{/policies}}
+
+{{/aggregates}}
+```
 
 각 메타데이터에 대한 값은 아래를 참고하여 작성하면 된다.
 
