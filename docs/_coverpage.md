@@ -8,5 +8,3 @@
 
 [GitHub](https://github.com/TheOpenCloudEngine/EventStorming)   
 [Get Started](getting-start.md)
-
-![color](#f0f0f0)
