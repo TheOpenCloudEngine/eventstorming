@@ -2,7 +2,5 @@
   - [Getting Started](getting-started.md)
 - Domain Driven Design
     - [Domain Driven Design](DomainDrivenDesign.md)
-- Offline EventStorming
-    - [Offline EventStorming](OfflineEventStorming.md)
-- Online EventStorming
-    - [EventStorming2Code](EventStorming2Code.md)
+- [Offline EventStorming](OfflineEventStorming.md)
+- [EventStorming2Code](EventStorming2Code.md)
