@@ -3,9 +3,8 @@
 
 ## 도구 소개
 
-EventStorming2Code 도구는 소프트웨어를 통한EventStorming(이벤트스토밍) 수행과 그 결과물인
-스티커기반(Sticker-based) 모델을 마이크로서비스형(Microservices Native) 코드로 자동
-생성해 주는 툴이다.
+##### EventStorming2Code 도구는 소프트웨어를 통한EventStorming(이벤트스토밍) 수행과 그 결과물인
+##### 스티커기반(Sticker-based) 모델을 마이크로서비스형(Microservices Native) 코드로 자동 생성해 주는 툴이다.
 
 ![](.//media/image2.png)그림 1 EventStorming2Code 도구 화면 (예시)
 
@@ -82,111 +81,111 @@ Integration)/CD(Continuous Deployment) 배포 파이프라인(Pipeline) 등 자�
 <table>
 <thead>
 <tr class="header">
-<th><blockquote>
+<th>
 <p><strong>Company</strong></p>
-</blockquote></th>
+</th>
 <th><strong>Deploy Frequency</strong></th>
-<th><blockquote>
+<th>
 <p><strong>Deploy Lead Time</strong></p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p><strong>Reliability</strong></p>
-</blockquote></th>
-<th><blockquote>
+</th>
+<th>
 <p><strong>Customer Responsiveness</strong></p>
-</blockquote></th>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
+<td>
 <p>Amazon</p>
-</blockquote></td>
+</td>
 <td>23,000 / day</td>
-<td><blockquote>
+<td>
 <p>Minutes</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
+<td>
 <p>Google</p>
-</blockquote></td>
+</td>
 <td>5,500 / day</td>
-<td><blockquote>
+<td>
 <p>Minutes</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
+<td>
 <p>Netflix</p>
-</blockquote></td>
+</td>
 <td>500 / day</td>
-<td><blockquote>
+<td>
 <p>Minutes</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
+<td>
 <p>Facebook</p>
-</blockquote></td>
+</td>
 <td>1 / day</td>
-<td><blockquote>
+<td>
 <p>Hours</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
+<td>
 <p>Twitter</p>
-</blockquote></td>
+</td>
 <td>3 / week</td>
-<td><blockquote>
+<td>
 <p>Hours</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>High</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
+<td>
 <p>Typical enterprise</p>
-</blockquote></td>
+</td>
 <td>Once every 9 months</td>
-<td><blockquote>
+<td>
 <p>Monthsor quarters</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>Low / Medium</p>
-</blockquote></td>
-<td><blockquote>
+</td>
+<td>
 <p>Low / Medium</p>
-</blockquote></td>
+</td>
 </tr>
 </tbody>
 </table>
