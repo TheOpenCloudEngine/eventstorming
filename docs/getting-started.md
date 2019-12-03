@@ -7,7 +7,7 @@
 ##### 스티커기반(Sticker-based) 모델을 마이크로서비스형(Microservices Native) 코드로 자동 생성해 주는 툴이다.
 
 ![](.//media/image2.png)
-###### 그림 1 EventStorming2Code 도구 화면 (예시)
+###### <p align="center"> 그림 1 EventStorming2Code 도구 화면 (예시) <p align="center">
 
 우리가 일반적으로 부르는 현업, 업무전문가, 도메인전문가 들이 모여 화이트보드 벽면에 주요 이벤트(Event)를 중심으로
 업무들간의 상호 연관성을 찾기 위해 유일한 도구인 스티커(Sticker)를 가지고 협업해 나가는 과정을
