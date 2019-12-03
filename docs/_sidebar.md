@@ -1,6 +1,6 @@
 - 개요
   - [Getting Started](getting-started.md)
-- DDD
+- Domain Driven Design
     - [DomainDrivenDesign](DomainDrivenDesign.md)
 - EventStorming
     - [OfflineEventStorming](OfflineEventStorming.md)
