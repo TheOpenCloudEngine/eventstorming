@@ -467,8 +467,21 @@ Value값을 가지고 오는 엔진이다.
 이름을 표시하여 준다.
 
 1.  HelloWorld.py 파일을 아래와 같이 생성한다.
+<pre>
+<code class="language-bash">
+$ aaaa
+</code>
+</pre>
 
-<pre class="language-yaml">
+
+<pre class="language-bash">
+$ aaaa
+</pre>
+<code class="language-bash">
+$ aaaa
+</code>
+
+<pre>
 <code class="language-yaml">
 forEach: BoundedContext ----- 1
 fileName: HelloWorld.py ----- 2
