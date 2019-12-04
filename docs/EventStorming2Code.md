@@ -434,13 +434,11 @@ GCB 트리거 생성은 아래와 같은 순서대로 진행을
 * cloudBuild.yaml 파일의 option 부분에 클러스터 Zone 과 이름이 일치하는지 확인 한다.
 
 <pre class="language-yaml">
-<code class="language-yaml">
 options :  
     env:  
     ## location/name of GKE cluster (used by all kubectl commands)  
     - CLOUDSDK_COMPUTE_ZONE=asia-northeast1-a  
     - CLOUDSDK_CONTAINER_CLUSTER=standard-cluster-1
-</code>
 </pre>
 
 ## 커스텀 템플릿 (Custom Template)
@@ -467,28 +465,13 @@ Value값을 가지고 오는 엔진이다.
 이름을 표시하여 준다.
 
 1.  HelloWorld.py 파일을 아래와 같이 생성한다.
-<pre>
-<code class="language-bash">
-$ aaaa
-</code>
-</pre>
 
 
-<pre class="language-bash">
-$ aaaa
-</pre>
-<code class="language-bash">
-$ aaaa
-</code>
-
-<pre>
-<code class="language-yaml">
+<pre class="language-python">
 forEach: BoundedContext ----- 1
 fileName: HelloWorld.py ----- 2
 path: {{boundedContext}}/{{{options.packagePath}}} ----- 3
 ---
-</code class="language-python">
-<code class="language-python">
 print("BoundedContext: {{name}}");
 
 {{#aggregates}}
@@ -514,7 +497,6 @@ print("policy: {{name}}");
 {{/policies}}
 
 {{/aggregates}}
-</code>
 </pre>
 
 각 메타데이터에 대한 값은 아래를 참고하여 작성하면 된다.
