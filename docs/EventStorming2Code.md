@@ -470,6 +470,7 @@ Value값을 가지고 오는 엔진이다.
 
 
 <pre class=" language-python">
+
 forEach: BoundedContext ----- 1
 fileName: HelloWorld.py ----- 2
 path: {{boundedContext}}/{{{options.packagePath}}} ----- 3
@@ -499,6 +500,7 @@ print("policy: {{name}}");
 {{/policies}}
 
 {{/aggregates}}
+
 </pre>
 
 각 메타데이터에 대한 값은 아래를 참고하여 작성하면 된다.
