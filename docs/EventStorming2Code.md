@@ -434,11 +434,13 @@ GCB 트리거 생성은 아래와 같은 순서대로 진행을
 * cloudBuild.yaml 파일의 option 부분에 클러스터 Zone 과 이름이 일치하는지 확인 한다.
 
 <pre class="language-yaml">
+
 options :  
     env:  
     ## location/name of GKE cluster (used by all kubectl commands)  
     - CLOUDSDK_COMPUTE_ZONE=asia-northeast1-a  
     - CLOUDSDK_CONTAINER_CLUSTER=standard-cluster-1
+    
 </pre>
 
 ## 커스텀 템플릿 (Custom Template)
@@ -468,6 +470,7 @@ Value값을 가지고 오는 엔진이다.
 
 
 <pre class="language-python">
+
 forEach: BoundedContext ----- 1
 fileName: HelloWorld.py ----- 2
 path: {{boundedContext}}/{{{options.packagePath}}} ----- 3
@@ -497,6 +500,7 @@ print("policy: {{name}}");
 {{/policies}}
 
 {{/aggregates}}
+
 </pre>
 
 각 메타데이터에 대한 값은 아래를 참고하여 작성하면 된다.

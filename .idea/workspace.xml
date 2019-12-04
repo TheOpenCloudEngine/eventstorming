@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d6807ae-4905-45eb-b70b-2ec2bfb99678" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/EventStorming2Code.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EventStorming2Code.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,15 +35,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="45" />
-          <entry key="md" value="1411" />
+          <entry key="html" value="50" />
+          <entry key="md" value="1415" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="4" />
-          <entry key="HTML" value="45" />
-          <entry key="Markdown" value="1407" />
+          <entry key="HTML" value="50" />
+          <entry key="Markdown" value="1411" />
         </counts>
       </usages-collector>
     </session>
@@ -53,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/docs/getting-started.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="174">
+              <first_editor relative-caret-position="505">
                 <caret line="293" lean-forward="true" selection-start-line="293" selection-end-line="293" />
               </first_editor>
               <second_editor />
@@ -64,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+            <state relative-caret-position="395">
+              <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -98,8 +99,8 @@
         <entry file="file://$PROJECT_DIR$/docs/EventStorming2Code.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="258">
-                <caret line="468" lean-forward="true" selection-start-line="468" selection-end-line="468" />
+              <first_editor relative-caret-position="259">
+                <caret line="442" column="4" selection-start-line="442" selection-start-column="4" selection-end-line="442" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -277,7 +278,7 @@
     <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="1020389516622" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575426349736" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575426666070" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
@@ -309,12 +310,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575358000765</updated>
-      <workItem from="1575358002091" duration="8864000" />
+      <workItem from="1575358002091" duration="9129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8864000" />
+    <option name="totallyTimeSpent" value="9129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -399,16 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/getting-started.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="174">
-            <caret line="293" lean-forward="true" selection-start-line="293" selection-end-line="293" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/OfflineEventStorming.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -419,11 +410,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/getting-started.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="505">
+            <caret line="293" lean-forward="true" selection-start-line="293" selection-end-line="293" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/EventStorming2Code.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="258">
-            <caret line="468" lean-forward="true" selection-start-line="468" selection-end-line="468" />
+          <first_editor relative-caret-position="259">
+            <caret line="442" column="4" selection-start-line="442" selection-start-column="4" selection-end-line="442" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
@@ -431,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="72" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+        <state relative-caret-position="395">
+          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
         </state>
       </provider>
     </entry>
