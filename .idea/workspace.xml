@@ -35,14 +35,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="21" />
-          <entry key="md" value="1195" />
+          <entry key="md" value="1262" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="4" />
           <entry key="HTML" value="21" />
-          <entry key="Markdown" value="1191" />
+          <entry key="Markdown" value="1258" />
         </counts>
       </usages-collector>
     </session>
@@ -98,8 +98,8 @@
         <entry file="file://$PROJECT_DIR$/docs/EventStorming2Code.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="546">
-                <caret line="502" column="6" selection-start-line="502" selection-start-column="6" selection-end-line="502" selection-end-column="6" />
+              <first_editor relative-caret-position="469">
+                <caret line="505" column="2" selection-start-line="505" selection-start-column="2" selection-end-line="505" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -277,7 +277,7 @@
     <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="1020389516622" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575424080500" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575424130365" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
@@ -309,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575358000765</updated>
-      <workItem from="1575358002091" duration="7204000" />
+      <workItem from="1575358002091" duration="7293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7204000" />
+    <option name="totallyTimeSpent" value="7293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -429,8 +429,8 @@
     <entry file="file://$PROJECT_DIR$/docs/EventStorming2Code.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="546">
-            <caret line="502" column="6" selection-start-line="502" selection-start-column="6" selection-end-line="502" selection-end-column="6" />
+          <first_editor relative-caret-position="469">
+            <caret line="505" column="2" selection-start-line="505" selection-start-column="2" selection-end-line="505" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
