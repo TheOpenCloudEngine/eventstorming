@@ -7,7 +7,7 @@
 실천 방법론이다.
 
 ## 수행 방법
-> <img src="./media/image12.jpeg" style="margin: 10px" align="left" width="400" height="200" /> 
+> <img src="./media/image12.jpeg" style="margin: 10px" align="right" width="400" height="200" /> 
 
 1.  이벤트스토밍에 필요한 화이트 보드 벽면과 수행에 필요한 오렌지, 라일락, 스카이블루, 노랑, 초록, 퍼플, 분홍색의 스티커를 준비한다.  
       
