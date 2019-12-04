@@ -230,11 +230,11 @@ Java 계열에서 가장 선두주자인 Spring 프레임워크에서 마이크�
 
 ##### Policy - Lilac
 
-*  보라색 스티커는 이벤트에 반응하여 작동하는 Policy 이다. 이벤트에 반응하기 때문에 이벤트를 수신하는 리스너가
+* 보라색 스티커는 이벤트에 반응하여 작동하는 Policy 이다. 이벤트에 반응하기 때문에 이벤트를 수신하는 리스너가
     필요하다. Spring-cloud-Stream 을 사용시 아래처럼 @StreamListener 어노테이션으로
     선언을 하여 주면, 이벤트가 생성될 때마다 INPUT 으로 들어오는 데이터를 한 개씩 수신이 된다.
 
- Processor.INPUT 은 메시지를 수신하는 채널인데, kafka 의 구현체를 가진다면 topic 을 의미한다. 만약
+* Processor.INPUT 은 메시지를 수신하는 채널인데, kafka 의 구현체를 가진다면 topic 을 의미한다. 만약
  Topic 을 여러 이벤트에서 공유를 한다면 아래 리스너에서 내가 원하는 이벤트만 선별하여 작업을 해야하기 때문에 이벤트의
  속성값에서 정해진 이벤트 명을 찾던가, header 에서 찾는 등 이벤트를 구분하는 로직이 필요하다.
  
@@ -242,9 +242,9 @@ Java 계열에서 가장 선두주자인 Spring 프레임워크에서 마이크�
 
 ##### Bounded Context
 
-1)  이벤트 스토밍을 하고 난 후에 여러 Aggregate 들이 관련된 Context 끼리 묶여서 Bounded Context
+* 이벤트 스토밍을 하고 난 후에 여러 Aggregate 들이 관련된 Context 끼리 묶여서 Bounded Context
     가 형성이 된다. 이것은 마이크로 서비스 단위로 쪼갤 수 있는 후보가 된다.  
       
-    마이크로 서비스는 java 언어로 구현 시 가장 적합한 프레임워크는 Spring-boot 이다. 내장된
+* 마이크로 서비스는 java 언어로 구현 시 가장 적합한 프레임워크는 Spring-boot 이다. 내장된
     톰켓(Tomcat)으로 자체 서버를 띄울 수 있고, 라이브러리를 추가하는 방식으로 Chassis 구성을 손쉽게
     할 수 있다.
