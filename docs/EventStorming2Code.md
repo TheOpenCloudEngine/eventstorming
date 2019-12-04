@@ -469,15 +469,13 @@ Value값을 가지고 오는 엔진이다.
 1.  HelloWorld.py 파일을 아래와 같이 생성한다.
 
 <pre>
-<code class="language-python">
+<code class="language-yaml">
 forEach: BoundedContext ----- 1
-
 fileName: HelloWorld.py ----- 2
-
 path: {{boundedContext}}/{{{options.packagePath}}} ----- 3
-
 ---
-
+</code>
+<code class="language-python">
 print("BoundedContext: {{name}}");
 
 {{#aggregates}}
