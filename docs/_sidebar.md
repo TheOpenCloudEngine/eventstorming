@@ -1,5 +1,4 @@
-- 개요
-  - [Getting Started](getting-started.md)
+- [Getting Started](getting-started.md)
 - [Domain Driven Design](DomainDrivenDesign.md)
 - [Offline EventStorming](OfflineEventStorming.md)
 - [EventStorming2Code](EventStorming2Code.md)
