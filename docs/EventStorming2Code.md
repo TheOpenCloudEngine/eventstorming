@@ -433,7 +433,7 @@ GCB 트리거 생성은 아래와 같은 순서대로 진행을
 
 * cloudBuild.yaml 파일의 option 부분에 클러스터 Zone 과 이름이 일치하는지 확인 한다.
 
-<pre>
+<pre class="language-yaml">
 <code class="language-yaml">
 options :  
     env:  
@@ -468,13 +468,13 @@ Value값을 가지고 오는 엔진이다.
 
 1.  HelloWorld.py 파일을 아래와 같이 생성한다.
 
-<pre>
+<pre class="language-yaml">
 <code class="language-yaml">
 forEach: BoundedContext ----- 1
 fileName: HelloWorld.py ----- 2
 path: {{boundedContext}}/{{{options.packagePath}}} ----- 3
 ---
-</code>
+</code class="language-python">
 <code class="language-python">
 print("BoundedContext: {{name}}");
 
