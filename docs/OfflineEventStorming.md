@@ -13,7 +13,7 @@
       
 2.  Domain expert 와 기획자, 개발 전문가와 함께 사용자 시나리오, 또는 업무 요건을 리뷰한다.
 
-3.  가장 먼저, 발생 가능한 Event를 무작위로 도출하고, Policy, Command, Aggregate 순서로 이벤트를
+3.  가장 먼저, 발생 가능한 Event 를 무작위로 도출하고, Policy, Command, Aggregate 순서로 이벤트를
     중심으로 스티커별 해당 내용을 정의하고 발생시간 순서로 벽면에 부착한다.
 
 4.  Bounded Context 를 설정하고 서브 도메인 간의 컨텍스트 매핑을 통해 BC간의 정보 참조의 릴레이션을 정의한다.
