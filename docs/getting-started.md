@@ -6,12 +6,12 @@
 EventStorming2Code 도구는 소프트웨어를 통한EventStorming(이벤트스토밍) 수행과 그 결과물인
 스티커기반(Sticker-based) 모델을 마이크로서비스형(Microservices Native) 코드로 자동 생성해 주는 툴이다.
 
-![](.//media/image2.png)
-<p align="center"> 그림 1 EventStorming2Code 도구 화면 (예시) <p align="center">
+> ![](.//media/image2.png)
+> <p align="center"> 그림 1 EventStorming2Code 도구 화면 (예시) </p>
 
 우리가 일반적으로 부르는 현업, 업무전문가, 도메인전문가 들이 모여 화이트보드 벽면에 주요 이벤트(Event)를 중심으로
 업무들간의 상호 연관성을 찾기 위해 유일한 도구인 스티커(Sticker)를 가지고 협업해 나가는 과정을
-이벤트스토밍(Event Storming, Event와 BrainStorming의 합성어)이라고 한다.
+**이벤트스토밍(Event Storming, Event와 BrainStorming의 합성어)** 이라고 한다.
 
 이벤트스토밍이란, 이벤트를 중심으로 이벤트를 유발시키는 행위(사용자의 의사결정)와 해당 이벤트에 연이어 반응하는 다른 액션들을
 <sup>1)</sup>모든 이해 관계자들이, <sup>2)</sup>짧은 시간 내에, <sup>3)</sup>시각적으로
@@ -193,7 +193,6 @@ Integration)/CD(Continuous Deployment) 배포 파이프라인(Pipeline) 등 자�
 </tr>
 </tbody>
 </table>
-
 <p align="center">  표 1 출처 – 도서 The Phoenix Project </p>
 
   규모가 상당한 기업이지만, 하루에도 수천 번의 배포가 가능한 이유는 이러한 배포가 상호 간섭없이 이루어 지고 있는 만큼 서비스 간의 격리(Isolation)가 잘 되어 있다는데 집중해야 한다.
@@ -216,7 +215,7 @@ Integration)/CD(Continuous Deployment) 배포 파이프라인(Pipeline) 등 자�
  이러한 approach가 바로 마이크로서비스 전략인 것이다. 
 
 > ![](.//media/image3.png)
-<p align="center"> 그림 2 마이크로서비스 아키텍처 </p>
+> <p align="center"> 그림 2 마이크로서비스 아키텍처 </p>
 
  위 그림과 같은 직접 호출 기반의 마이크로서비스 아키텍처가 서비스 레벨의 자율성과 독립성, 서비스에 최적화된
  저장소(Polyglot Persistence)을 보장해 주지만, 한가지 큰 맹점이 존재하는데 그게 바로 서비스의
@@ -226,8 +225,7 @@ Integration)/CD(Continuous Deployment) 배포 파이프라인(Pipeline) 등 자�
  나타내고 있다.
 
 > ![](.//media/image4.png)
-
-<p align="center"> 그림 3 타임 커플링이 배제된 이벤트드리븐 아키텍처 </p>
+> <p align="center"> 그림 3 타임 커플링이 배제된 이벤트드리븐 아키텍처 </p>
 
 
  위 그림에서 주문팀에서 주문이 발생하였을 때, 직접 배송팀에다 ‘’배송을 준비하세요.’라고 전달하는 것은 주문팀의 입장에서는
@@ -252,10 +250,8 @@ EventStorming2Code(이하, ES2Cd) 도구를 통해 수행된 이벤트스토밍 
 Engineering) 코드 생성 모듈을 통해 MSA 소스코드로 자동 생성되며, 각 마이크로서비스마다 서비스에 최적화된
 Language(Python, Node JS, Go 등)를 위한 사용자 정의 가능한 확장 템플릿을 지원한다.
 
-![](.//media/image5.png)
-
-
-<p align="center"> 그림 4 이벤트스토밍 결과와 소스코드 구현체의 상관관계 </p>
+> ![](.//media/image5.png)
+> <p align="center"> 그림 4 이벤트스토밍 결과와 소스코드 구현체의 상관관계 </p>
 
 
 또한, ES2Cd 도구는 워크로드 분산 엔진(Workload Distribution Engine) 기반의 클라우드 배포를 위한
@@ -295,7 +291,6 @@ ES2Cd 도구는 이벤트스토밍(EventStorming)이라는 DDD 구현 방법론�
 | Ployglot MSA      | 팀별 자체 구현                      | 사용자정의 확장 템플릿으로 자동생성 지원 |
 | DevOps 지원         | 없음                            | CI/CD 파이프라인 자동생성       |
 | 결과물 관리 용이성        | 분실 및 훼손 우려 높음                 | 결과물 버전관리 및 전자적 보관      |
-
 <p align="center"> 표 2 이벤트스토밍 도구 도입효과 </p>
 
 오프라인 이벤트스토밍으로 DDD기반 도메인 분석 및 설계가 가능하지만, ES2Cd는 분석에서부터 운영에 이르는 MSA 전 주기를
@@ -338,7 +333,6 @@ ES2Cd 도구는 이벤트스토밍(EventStorming)이라는 DDD 구현 방법론�
 </tr>
 </tbody>
 </table>
-
 <p align="center"> 표 3 EventStorming2Code 실행 환경 </p>
 
 
