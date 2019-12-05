@@ -235,6 +235,8 @@ EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 
  #### 시공간 제약없는 이벤트스토밍 환경
  
  이러한 이벤트 기반 마이크로서비스(Event-Driven Microservice) 구축에 앞서, 단순 스티커(Sticker) 색상으로 화이트보드 벽면에 모델링하는 기법을 이벤트스토밍(EventStorming)이라 하며, EventStorming2Code 툴은 이를 소프트웨어적으로 수행될 수 있는 환경을 제공하는 것이 그 목적이다.
+> ![](.//media/evtstrm.jpg)
+> <p align="center"> 이미지 출처 : Pivotal_Methodology</p>
 
 #### MSA 코드 자동 생성
 
