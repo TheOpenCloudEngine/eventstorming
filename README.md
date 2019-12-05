@@ -10,4 +10,4 @@ Event Storming Wiki Page
       - [test](test.md)
     ```
 1. _sidebar.md까지 수정하고나면 Wiki 좌측의 sidebar에 test라는 페이지가 추가된다.
-    - 이하 sidebar의 내용은 5단계까지 (# ~ #####) 까지 자동으로 타이틀을 추가하여 준다.
+    - 이하 sidebar의 내용은 작성된 md파일 내용의 5단계까지 (# ~ #####) 까지 자동으로 타이틀을 추가하여 준다.
