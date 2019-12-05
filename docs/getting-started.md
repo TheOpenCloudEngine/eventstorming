@@ -42,7 +42,7 @@ EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 
 
   - **Support MSA Resources Generation**
     
-      - EventStorming Model based MSA Source Code, Spring-boot (default)
+      - EventStorming Model based MSA Source Codes, Spring-boot (default)
     
       - Docker flie for Immutable Images
     
@@ -64,14 +64,14 @@ EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 
 
 ### 도구의 목적
 
-#### 시공간 제약없는 이벤트스토밍 환경
+#### EDA(Event Driven Architecture) 기반 MSA 3.0 지원
 
  온라인 서비스를 제공하는 회사들은 주로 야간에 업무 시스템 개선에 대한 서버 반영이 이루어지고 있으며, 한 팀의 개선 서비스
  반영을 위해 연관된 다른 모든 팀들이 혹시 발생할 수 있는 Side Effect 모니터링을 위해 대기하는 상황을 흔히 볼 수 있다.
    
  조직 구조가 에자일(Agile)해 지지 않으면 온라인 서비스 기업의 낮은 행복 지수를 유발하는 Pain-Point는 항상
  존재하게 된다. 허나, 우리의 경쟁사 중 앞서가는 기업은 실패에도 관대하고 고객이 원하는 Features를 탐색해
- 볼 수 있는 요구사항 수집 방법과 소프트웨어 엔지니어링 방법, Loosely Coupled한 개발/운영 전략,
+ 볼 수 있는 요구사항 수집 전략, 소프트웨어 엔지니어링 도구, Loosely Coupled한 개발/운영 전략,
  DevOps와 같은 프로세스적인 아키텍처들을 겸비하고 있다.
  
  아마존과 같은 고도의 경쟁체제에 있는 글로벌 기업은 하루에도 23,000여 번의 배포를 하면서도 서비스의 안정성과 고객의
@@ -97,92 +97,92 @@ EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 
 </thead>
 <tbody>
 <tr class="odd">
-<td>
+<td align="center">
 <p>Amazon</p>
 </td>
-<td>23,000 / day</td>
-<td>
+<td align="center">23,000 / day</td>
+<td align="center">
 <p>Minutes</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
 </tr>
 <tr class="even">
-<td>
+<td align="center">
 <p>Google</p>
 </td>
-<td>5,500 / day</td>
-<td>
+<td align="center">5,500 / day</td>
+<td align="center">
 <p>Minutes</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
 </tr>
 <tr class="odd">
-<td>
+<td align="center">
 <p>Netflix</p>
 </td>
-<td>500 / day</td>
-<td>
+<td align="center">500 / day</td>
+<td align="center">
 <p>Minutes</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
 </tr>
 <tr class="even">
-<td>
+<td align="center">
 <p>Facebook</p>
 </td>
-<td>1 / day</td>
-<td>
+<td align="center">1 / day</td>
+<td align="center">
 <p>Hours</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
 </tr>
 <tr class="odd">
-<td>
+<td align="center">
 <p>Twitter</p>
 </td>
-<td>3 / week</td>
-<td>
+<td align="center">3 / week</td>
+<td align="center">
 <p>Hours</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
-<td>
+<td align="center">
 <p>High</p>
 </td>
 </tr>
 <tr class="even">
-<td>
+<td align="center">
 <p>Typical enterprise</p>
 </td>
-<td>Once every 9 months</td>
-<td>
+<td align="center">Once every 9 months</td>
+<td align="center">
 <p>Monthsor quarters</p>
 </td>
-<td>
+<td align="center">
 <p>Low / Medium</p>
 </td>
-<td>
+<td align="center">
 <p>Low / Medium</p>
 </td>
 </tr>
@@ -193,37 +193,33 @@ EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 
   규모가 상당한 기업이지만, 하루에도 수천 번의 배포가 가능한 이유는 이러한 배포가 상호 간섭없이 이루어 지고 있는 만큼 서비스 간의 격리(Isolation)가 잘 되어 있다는데 집중해야 한다.
  
  기존의 모노리식 아키텍처는 큰 배포 단위 속에 상호 모듈들의 의존도가 높을 뿐만 아니라 단일 DB를 사용함으로 인해, 사소한
- 개선 사항의 적용에도 표준 가이드라인 준수, 복잡한 결재 라인을 통한 승인 획득 등 지속적인 딜리버리에 많은 시간을
+ 개선 사항의 적용에도 표준 가이드라인 준수, 복잡한 결재 라인을 통한 승인 획득 등 지속적인 딜리버리 절차에 더 많은 시간을
  요구하고 있는게 현실이다.
 
- 그래서 등장한 것이 마이크로서비스 아키텍처이다. 마이크로서비스는 서비스를 함축적(Implementation Hiding)으로
+ 그래서 등장한 것이 마이크로서비스 1세대 아키텍처이다. 마이크로서비스는 서비스를 함축적(Implementation Hiding)으로
  제공하자는 측면에서는SOA 사상과 유사하나, 서비스레벨 뿐만 아니라 데이터베이스 레벨까지 철저하게 분리하자는 것이 SOA와
- 크게 구분되는 점이다. 기존에는 생산성을 극대화하기 위해 표준화를 목표로 하나의 정해진 언어, 잘 짜여진 개발 표준을
- 준수하면서 공통 모듈을 도출하고 이를 재사용하면서 공유해 왔으나, 빠르고 기민하게 요구사항을 받아들이고
- 반영하는 전체 라이프사이클 상에서 이러한 SOA사상인 표준화(Standardization)는 오히려 생산성을
- 저해하는 커다란 걸림돌이 되고 있다. 즉 개발 표준을 준수하기 위해, 예를 들어 MDM(Master Data
- Management)에 필드 하나 추가하기 위해 담당자에게 요청 후, 평균 일주일을 기다려야 한다는 것이다.
+ 크게 구분되는 점이다. 
+ 
+ 기존에는 생산성을 극대화하기 위해 표준화를 목표로 하나의 정해진 언어, 잘 짜여진 개발 표준을
+ 준수하면서 공통 모듈을 도출하고 이를 재사용하면서 공유해 왔다. 그러나 빠르고 기민하게 요구사항을 받아들이고
+ 반영해야 하는 라이프사이클 상에서 이러한 SOA사상인 표준화(Standardization)는 오히려 생산성을
+ 저해하는 커다란 걸림돌이 되고 있다. 
 
- 기존의 approach는 빅(big) 플래닝을 통해 빅뱅(Big Bang)의 성공을 이루려는 프로세스 적용으로 실패에 대한 리스크 또한 높았으나,
- 아마존을 비롯한 글로벌 기업들은 고객이 실제 우리 제품에 대해 관심이 있는지를 빠른 시장 출시를 통해 파악한 후,
- 관심과 호응도가 높을 시에 제대로 구현해 보자는 “Fail Fast”, “Fail Cheap”의 에자일한 접근법을 선호하고 있는데
- 이러한 approach가 바로 마이크로서비스 전략인 것이다. 
+ 기존의 approach는 빅(big) 플래닝을 통해 빅뱅(Big Bang)의 성공을 이루려는 프로세스 적용으로 실패에 대한 리스크 또한 높았다. 
+그와 달리, 고객이 실제 우리 제품에 대해 관심이 있는지를 빠른 시장 출시를 통해 파악한 후, 관심과 호응도가 높을 시, 제대로 구현하는 “Fail Fast”, “Fail Cheap”의 에자일한 접근 approach가 바로 마이크로서비스 사상인 것이다.  
 
 > ![](.//media/image3.png)
-> <p align="center"> 그림 2 마이크로서비스 아키텍처 </p>
+> <p align="center"> 그림 2 마이크로서비스 1세대 아키텍처 예시</p>
 
- 위 그림과 같은 직접 호출 기반의 마이크로서비스 아키텍처가 서비스 레벨의 자율성과 독립성, 서비스에 최적화된
- 저장소(Polyglot Persistence)을 보장해 주지만, 한가지 큰 맹점이 존재하는데 그게 바로 서비스의
- 동기 호출에 따른 타임 커플링(Time Coupling)은 해결해 주고 있지 못하다.
+ 위 그림과 같은 1세대 MSA에서는 서비스 레벨의 자율성과 독립성, 서비스에 최적화된 저장소(Polyglot Persistence)를 보장해 주지만, 서비스API 동기식 호출에 따른 타임 커플링(Time Coupling)이라는 약점이 존재한다. 타임 커플링된 서비스들은 서비스 실행 시간과 한 서비스에서 발생한 장애조차 타 서비스로 전파될 수 있음을 시사하는데 이는 웹 스케일기반 시스템에서는 아주 치명적인 단점인 것이다.
 
- 아래 그림의 쇼핑몰 서비스간 흐름을 보면, 직접 호출 대신 Publish, Subscribe 방식으로 상호 커뮤니케이션하고 있음을
- 나타내고 있다.
+이를 보완한 것이 최근 각광받고 있는 이벤트 기반(EDA)의 3세대 MSA로, 도메인에서 발생하는 이벤트를 중심으로 마이크로서비스간 Pub/Sub을 통해 상호 커뮤니케이션하는 아키텍처를 따른다.
 
 > ![](.//media/image4.png)
-> <p align="center"> 그림 3 타임 커플링이 배제된 이벤트드리븐 아키텍처 </p>
+> <p align="center"> 그림 3 EDA기반 마이크로서비스 3세대 아키텍처 예시 </p>
 
 
- 위 그림에서 주문팀에서 주문이 발생하였을 때, 직접 배송팀에다 ‘’배송을 준비하세요.’라고 전달하는 것은 주문팀의 입장에서는
+ 위 EDA기반 MSA예시에서 주문이 발생하였을 때, 직접 배송팀에다 ‘’배송을 준비하세요.’라고 전달하는 것은 주문팀의 입장에서는
  그다지 중요한 것이 아니다. 즉, 다시 말해 주문팀은 배송팀이 배송을 하던 말던 관심이 없다는 것이다.
  
  REST방식(직접 호출)으로 서로 통신할 경우, 호출하는 링크가 깨질 수 있고, 요청을 보냈을 때 요청자는 다음 액션을
@@ -237,17 +233,15 @@ EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 
  프로세스가 있다면, 단순하게 주문팀의 “주문이 발송하였습니다.” 라는 이벤트에 대해 마케팅팀도 반응하여 수행하면 된다는
  것이다.
  
- 이러한 <span class="underline">이벤트 기반 마이크로서비스(Event-Driven Microservice) 구축에 앞서, 단순 스티커(Sticker) 색상으로 화이트보드 벽면에 모델링하는 기법을 이벤트스토밍(EventStorming)이라 하며, EventStorming2Code 툴은 이를 소프트웨어적으로 수행될 수 있는 환경을 제공하는 것이 그 목적</span>이다.
+ #### 시공간 제약없는 이벤트스토밍 환경
+ 
+ 이러한 이벤트 기반 마이크로서비스(Event-Driven Microservice) 구축에 앞서, 단순 스티커(Sticker) 색상으로 화이트보드 벽면에 모델링하는 기법을 이벤트스토밍(EventStorming)이라 하며, EventStorming2Code 툴은 이를 소프트웨어적으로 수행될 수 있는 환경을 제공하는 것이 그 목적이다.
 
 #### MSA 코드 자동 생성
 
 EventStorming2Code(이하, ES2Cd) 도구를 통해 수행된 이벤트스토밍 결과는 도구의 순공학(Forward
 Engineering) 코드 생성 모듈을 통해 MSA 소스코드로 자동 생성되며, 각 마이크로서비스마다 서비스에 최적화된
 Language(Python, Node JS, Go 등)를 위한 사용자 정의 가능한 확장 템플릿을 지원한다.
-
-> ![](.//media/image5.png)
-> <p align="center"> 그림 4 이벤트스토밍 결과와 소스코드 구현체의 상관관계 </p>
-
 
 또한, ES2Cd 도구는 워크로드 분산 엔진(Workload Distribution Engine) 기반의 클라우드 배포를 위한
 Dockerfile과 CI/CD 파이프라인, 심지어 Helm Chart 스크립트까지도 자동으로 생성해 준다. 즉, ES2Cd
