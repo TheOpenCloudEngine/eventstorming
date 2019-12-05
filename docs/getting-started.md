@@ -15,7 +15,7 @@ EventStorming2Code 도구는 소프트웨어를 통한EventStorming(이벤트스
 <sup>1)</sup>모든 이해 관계자들이, <sup>2)</sup>짧은 시간 내에, <sup>3)</sup>시각적으로
 모델링한다. 궁극적으로 마이크로서비스에 요구되는 자율적(Autonomous) 수행을 위한 서비스 경계(Service Boundary) 구분을 그 목적으로 한다.
 
-EventStorming2Code 도구는 이벤트스토밍에 필요한 공간적인 제약과, 화이트보드 벽면에 부착된 스티커가 외부적 요인으로
+EventStorming2Code 도구는 이러한 이벤트스토밍에 필요한 공간적인 제약과, 화이트보드 벽면에 부착된 스티커가 외부적 요인으로
 쉽게 분리(detach)될 수 있다는 점을 보완하여 브라우저(Browser)의 캔버스 상에서 오프라인에서와 동일한 작업이 가능한
 환경을 제공한다.
 
