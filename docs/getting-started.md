@@ -21,7 +21,7 @@ EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 
 또한, 이벤트스토밍 결과 모델을 도구가 제공하는 순공학(Forward Engineering) 기능을 통해 단위 마이크로서비스 코드 생성이 가능하고, 
 도구를 적용하는 기업이 가진 표준 프레임워크(Framework)에 맞도록 커스터마이징 가능한 템플릿 기능도 내장하고 있다. 
 
-뿐만 아니라 마이크로서비스가 운영될 클라우드 환경에 필요한 도커(Docker)와 CI(Continuous Integration)/CD(Continuous Deployment) 배포 파이프라인(Pipeline) 등 자동화된 환경 구성(Configuration) 파일도 생성해 준다. 
+뿐만 아니라 마이크로서비스가 운영될 클라우드 환경에 필요한 도커(Docker)와 CI(Continuous Integration), CD(Continuous Deployment) 배포 파이프라인(Pipeline) 등 자동화된 환경 구성(Configuration) 파일도 생성해 준다. 
 
 --- 
 
