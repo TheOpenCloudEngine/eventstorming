@@ -228,10 +228,9 @@ EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 
  Truth)에 “주문이 발생하였습니다.” 라고 신고만 함으로써 그 의무를 다하게 되고 다음 액션을 수행하면 된다. 이처럼
  “발생한 사실을 신고”하는 패턴의 아키텍처를 이벤트드리븐(Event Driven), 또는 화이트보드 패턴이라고 한다.
  
- 그렇게 되면 마이크로서비스 직접 호출 패턴에선, 배송팀의 비즈니스 프로세스가 주문팀이 호출해 실행되던 방식에서, 배송팀이 직접
- 이벤트에 반응하여 실행하는 방식으로 실행 주체가 바뀌게 된다. 마케팅팀 또한, 주문팀의 주문 발생으로 수행해야 할 비즈니스
- 프로세스가 있다면, 단순하게 주문팀의 “주문이 발송하였습니다.” 라는 이벤트에 대해 마케팅팀도 반응하여 수행하면 된다는
- 것이다.
+ 그렇게 되면 1세대 MSA에서는 배송팀의 비즈니스 프로세스가 주문팀이 호출해 실행되던 방식이, 3세대 MSA에선 배송팀이 직접 이벤트에 반응하여 실행하는 방식으로 실행 주체가 바뀌게 된다.
+ 마케팅팀 또한, 주문팀의 주문 발생으로 수행해야 할 비즈니스 프로세스가 있다면, 단순하게 주문팀의 “주문이 발송하였습니다.” 라는 이벤트에 대해 마케팅팀도 반응하여 수행하면 된다는 것이다. 
+
  
  #### 시공간 제약없는 이벤트스토밍 환경
  
@@ -274,7 +273,7 @@ ES2Cd 도구는 이벤트스토밍(EventStorming)이라는 DDD 구현 방법론�
 
 | **구 분**           | **오프라인 EventStorming**        | **ES2Cd**              |
 | ----------------- | ----------------------------- | ---------------------- |
-| Support Lifecycle | 분석, 설계                        | 분석, 설계, 개발, 운영         |
+| Support Phase | 분석, 설계                        | 분석, 설계, 개발, 운영         |
 | 시공간적 제약           | 충분한 화이트보드 공간 필요               | 제약 없음                  |
 | MSA 코드 구현         | MSA 구현 스킬을 보유한 개발자에 의한 수작업 개발 | 도구에서 초기 소스코드 자동생성      |
 | Ployglot MSA      | 팀별 자체 구현                      | 사용자정의 확장 템플릿으로 자동생성 지원 |
@@ -295,29 +294,33 @@ ES2Cd 도구는 이벤트스토밍(EventStorming)이라는 DDD 구현 방법론�
 <table>
 <thead>
 <tr class="header">
-<th>지원 OS</th>
-<th>Windows, Linux, Mac OS 지원</th>
+<th>구분</th>
+<th>내  용</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
+<td>지원 OS</td>
+<td>Windows, Linux, Mac OS 지원</td>
+</tr>
+<tr class="even">
 <td>지원 Cloud</td>
 <td><p>All Cloud Platform 지원</p>
 <p>(AWS, GCP, MS Azure, IBM/Oracle Cloud, OpenShift)</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>서비스 유형</td>
 <td>On-Premise, or SaaS</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>필요 사양</td>
 <td>Memory 512MB 이상</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>지원 Browser</td>
 <td>크로스 브라우저 지원 (IE, Edge 등 MS계열 제외)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>설치 모듈</td>
 <td>없음</td>
 </tr>
