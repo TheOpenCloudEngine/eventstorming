@@ -9,24 +9,20 @@ EventStorming2Code 도구는 소프트웨어를 통한EventStorming(이벤트스
 > ![](.//media/image2.png)
 > <p align="center"> 그림 1 EventStorming2Code 도구 화면 (예시) </p>
 
-우리가 일반적으로 부르는 현업, 업무전문가, 도메인전문가 들이 모여 화이트보드 벽면에 주요 이벤트(Event)를 중심으로
-업무들간의 상호 연관성을 찾기 위해 유일한 도구인 스티커(Sticker)를 가지고 협업해 나가는 과정을
-**이벤트스토밍(Event Storming, Event와 BrainStorming의 합성어)** 이라고 한다.
+이벤트스토밍(Event Storming)은 Event와 BrainStorming의 합성어로서, 이벤트 기반 시스템의 설계와 개발을 빠르게할 수 있는 기법이다. 기존의 UML, BPMN 등의 이해도와 전무성을 갖추지 않더라도 현업, 업무전문가, 도메인전문가 들이 모여 화이트보드 벽면에 주요 이벤트(Event)를 중심으로 업무들간의 상호 연관성을 스티키 노트(Sticker)를 가지고 협업해 나간다.
 
-이벤트스토밍이란, 이벤트를 중심으로 이벤트를 유발시키는 행위(사용자의 의사결정)와 해당 이벤트에 연이어 반응하는 다른 액션들을
+이벤트를 중심으로 이벤트를 유발시키는 행위(사용자의 의사결정)와 해당 이벤트에 연이어 반응하는 다른 액션들을
 <sup>1)</sup>모든 이해 관계자들이, <sup>2)</sup>짧은 시간 내에, <sup>3)</sup>시각적으로
-모델링함으로써 궁극적으로는 마이크로서비스 구현에 필요한 통제 가능한(Controllable)한 수준의 서비스
-경계를 구분 짓는 것을 그 목적으로 한다.
+모델링한다. 궁극적으로 마이크로서비스에 요구되는 자율적(Autonomous) 수행을 위한 서비스 경계(Service Boundary) 구분을 그 목적으로 한다.
 
 EventStorming2Code 도구는 이벤트스토밍에 필요한 공간적인 제약과, 화이트보드 벽면에 부착된 스티커가 외부적 요인으로
 쉽게 분리(detach)될 수 있다는 점을 보완하여 브라우저(Browser)의 캔버스 상에서 오프라인에서와 동일한 작업이 가능한
 환경을 제공한다.
 
-또한, 이벤트스토밍 결과 모델을 도구가 제공하는 순공학(Forward Engineering) 기능을 통해 단위 마이크로서비스 코드
-생성이 가능하고, 도구를 적용하는 기업이 가진 표준 프레임워크(Framework)에 맞도록 커스터마이징 가능한 템플릿 기능도
-내장하고 있으며, 마이크로서비스가 운영될 클라우드 환경에 필요한 도커(Docker)와 CI(Continuous
-Integration)/CD(Continuous Deployment) 배포 파이프라인(Pipeline) 등 자동화된
-환경구성(Configuration)도 제공한다.
+또한, 이벤트스토밍 결과 모델을 도구가 제공하는 순공학(Forward Engineering) 기능을 통해 단위 마이크로서비스 코드 생성이 가능하고, 
+도구를 적용하는 기업이 가진 표준 프레임워크(Framework)에 맞도록 커스터마이징 가능한 템플릿 기능도 내장하고 있다. 
+
+뿐만 아니라 마이크로서비스가 운영될 클라우드 환경에 필요한 도커(Docker)와 CI(Continuous Integration)/CD(Continuous Deployment) 배포 파이프라인(Pipeline) 등 자동화된 환경 구성(Configuration) 파일도 생성해 준다. 
 
 --- 
 
