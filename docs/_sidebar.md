@@ -5,5 +5,5 @@
 - [CustomTemplate](CustomTemplate.md)
 
 <details markdown="1">
-<summary>- [CustomTemplate](CustomTemplate.md) </summary>
+- [CustomTemplate](CustomTemplate.md)
 </details>
