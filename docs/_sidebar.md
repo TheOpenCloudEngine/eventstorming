@@ -2,4 +2,4 @@
 - [Domain Driven Design](DomainDrivenDesign.md)
 - [Offline EventStorming](OfflineEventStorming.md)
 - [EventStorming2Code](EventStorming2Code.md)
-- [CustomTemplate](CustomTemplate.md)
+- [Custom Template](CustomTemplate.md)
