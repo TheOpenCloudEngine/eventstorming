@@ -1,5 +1,8 @@
 # EventStorming2Code 기반 MSA 개발
 
+## 서비스 접속
+[eventstorming2code.io](http://eventstorming2code.io) 에 접속한다. 크롬추천.
+
 ## 예제 프로젝트
 
 예제 프로젝트는 주문 서비스와 배송 서비스 2개의 서비스를 EventStorming하여 Spring-boot로 실행되는 Java
