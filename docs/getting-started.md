@@ -3,7 +3,7 @@
 
 ## 도구 소개
 
-온라인 Event Storming 도구로서, 이벤트 기반 마이크로서비스 (Microservices Native) 를 결과물 코드로 생성해 줍니다!
+[eventstorming2code.io](eventstorming2code.io) 는 온라인 Event Storming 도구로서, 이벤트 기반 마이크로서비스 (Microservices Native) 를 결과물 코드로 생성해 줍니다!
 
 > ![](.//media/image2.png)
 > <p align="center"> 그림 1 EventStorming2Code 도구 화면 (예시) </p>
@@ -51,7 +51,7 @@ EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 
 
 ---
 
-### 도구의 목적
+### 도구의 배경과 목적
 
 #### EDA(Event Driven Architecture) 기반 3세대 MSA의 유행
 
