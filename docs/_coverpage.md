@@ -2,9 +2,8 @@
 
 <img src="logo_bright.png" width="150px">
 
-# uEngine EventStorming
+# EventStorming 2 Code
 
-> EventStorming Online Tool
+> Online EventStorming and Code Gen
 
-[GitHub](https://github.com/TheOpenCloudEngine/EventStorming)   
 [Get Started](getting-started.md)
