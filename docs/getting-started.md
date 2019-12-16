@@ -3,8 +3,7 @@
 
 ## 도구 소개
 
-EventStorming2Code 도구는 소프트웨어를 통한EventStorming(이벤트스토밍) 수행과 그 결과물인
-스티커기반(Sticker-based) 모델을 마이크로서비스형(Microservices Native) 코드로 자동 생성해 주는 툴이다.
+온라인 Event Storming 도구로서, 이벤트 기반 마이크로서비스 (Microservices Native) 를 결과물 코드로 생성해 줍니다!
 
 > ![](.//media/image2.png)
 > <p align="center"> 그림 1 EventStorming2Code 도구 화면 (예시) </p>
@@ -15,45 +14,40 @@ EventStorming2Code 도구는 소프트웨어를 통한EventStorming(이벤트스
 
 EventStorming2Code는 이러한 오프라인 이벤트스토밍이 공간적인 제약과, 화이트보드 벽면에 부착된 스티커가 물리적 요인으로 쉽게 떨어질 수 있다는 점을 보완하여 고안된 온라인 도구이다.
 
-또한, 결과 모델을 순공학(Forward Engineering) 기능을 통해 단위 마이크로서비스 코드 생성이 가능하고, 마이크로서비스가 운영될 클라우드 환경에 필요한 도커 파일(Docker file)과 CI(Continuous Integration), CD(Continuous Deployment) 배포 파이프라인(Pipeline) 등 자동화된 환경 구성(Configuration) 파일도 생성해 준다.
-이를 통해, 도구를 적용하는 기업이 가진 표준 프레임워크(Framework)에 맞도록 커스터마이징 할 수도 있다. 
+또한, 결과 모델을 단위 마이크로서비스 코드, 클라우드 환경에 필요한 도커 파일과 CI/CD 배포 파이프라인(Pipeline) 등 자동화된 환경 구성을 생성해 준다.
+이러한 템플릿을 여러분의 선호하는 언어와 플랫폼에 맞도록 커스터마이징 할 수도 있다. 
 
 --- 
 
 ### 주요 Features
 
-  - **Provide web-based Event Storming environment**
+  - **Web-based Event Storming environment**
     
-      - Support 6 types of Event Sticker  
+      - 6 types of Event Sticker  
         (Event, Policy, Command, Aggregate, External System, Read Model)
     
-      - Support Bounded Context and Context Mapping (Relation between
+      - Bounded Context and Context Mapping (Relation between
         Microservices)
     
-      - Support ubiquitous Language (English word suggestion)
+      - English word suggestion
     
-      - Support various reference type (Request & Response,
-        Event-Driven)
 
-  - **Support MSA Resources Generation**
+  - **Code Generation**
     
-      - EventStorming Model based MSA Source Codes, Spring-boot (default)
+      - MSA Implementation Source Codes (Default: Spring-boot)
     
-      - Docker flie for Immutable Images
+      - Dockerfile
     
       - Pipeline YAML file for CI/CD DevOps
     
-      - Helm Chart for easy MSA Creation
+      - Helm Chart for Kubernetes Deployment
 
-  - **Support Templates for Microservice’s Polyglot language**
+  - **Custom Templates for Microservice’s Polyglot language**
     
       - Template customizing support (Any language is available)
     
       - Local and remote(Github) template add-in support
 
-  - **Support Code Preview & Download Archive function**
-
-  - **Support Canvas Zoom In-Out function**
 
 ---
 
