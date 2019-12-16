@@ -1,7 +1,5 @@
 
-# 개요
-
-## 도구 소개
+## 소개
 
 [eventstorming2code.io](http://eventstorming2code.io) 는 온라인 Event Storming 도구로서, 이벤트 기반 마이크로서비스 (Microservices Native) 를 결과물 코드로 생성해 줍니다!
 
