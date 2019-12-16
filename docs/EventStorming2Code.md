@@ -7,7 +7,7 @@ Project를 생성한다.
 
 ## UI 소개
 
-### 도구 레이아웃
+### UI 레이아웃
 
 EventStorming2Code 도구의 전체 화면 레이아웃은 다음과 같다.
 
@@ -27,11 +27,11 @@ EventStorming2Code 도구의 전체 화면 레이아웃은 다음과 같다.
 
 ### Event
 
-Event는 스티커 팔레트에서 주황색 아이콘이 지칭한다.
+스티커 팔레트에서 오랜지색 아이콘이 Event를 지칭한다.
 
 #### Event 추가하기
 
-스티커 팔레트에서 주황색 아이콘을 캔버스로 Drag & Drop하여 Event를 추가한다.
+스티커 팔레트에서 주황색 아이콘을 캔버스로 Drag & Drop하여 추가한다.
 
 > ![](.//media/image31.png)
 > <p align="center">그림 2 Event Drag</p>
@@ -50,7 +50,7 @@ Event는 스티커 팔레트에서 주황색 아이콘이 지칭한다.
 | 번호 | 이름                   | 기능 설명                     |
 | -- | -------------------- | ------------------------- |
 | 1  | Event Name           | Event Sticky note에 작성될 이름 |
-| 2  | Trigger              | Event가 발생할 때 발생할 Trigger  |
+| 2  | Trigger              | Event를 발생시키는 엔티티의 Trigger  |
 | 3  | Attribute            | Event의 Attribute들 등록      |
 | 4  | Associated Aggregate | Event와 연결 될 Aggregate 선택  |
 
@@ -58,7 +58,7 @@ Event는 스티커 팔레트에서 주황색 아이콘이 지칭한다.
 
 1.  Event Name에 “**OrderPlaced**” 라고 기입한다.
 
-2.  Trigger는 PrePersist를 선택한다.
+2.  Trigger는 "PrePersist"를 선택한다.
 
 3.  Attribute는 Event에서 사용할 Entity를 등록한다.  
     기본적으로는 아래의 4. 에서 Aggregate가 연결된다면 해당 Aggregate의 Entity정보를 참조한다.
@@ -106,7 +106,7 @@ Policy는 스티커 팔레트에서 라일락색 아이콘이 지칭한다.
 
 해당 이벤트가 발생될 때의 업무에 따라서, 아래와 같이 기입한다.
 
-1.  Policy Name에 “**StartDeilvery**” 라고 기입한다.
+1.  Policy Name에 “**StartDelivery**” 라고 기입한다.
 
 2.  연결될 Aggregate를 선택한다. (이후에, Aggregate를 추가한 후에 선택하여 준다.)
 
