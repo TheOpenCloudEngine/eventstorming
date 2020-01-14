@@ -198,3 +198,45 @@ print("policy: {{name}}");
 | aggregate         | 자신이 속해있는 Aggregate 정보  |
 | eventToPolicy     | Policy가 Event를 전달받는 방식 |
 | relationEventInfo | 연결된 Event에 대한 정보       |
+
+#### View 변수
+
+| 변수명               | 변수 역할                  |
+| ----------------- | ---------------------- |
+| aggregate         | 자신이 속해있는 Aggregate 정보  |
+| dataProjection    | view의 데이터 구조 방식 변수 |
+| viewFieldDescriptors | 데이터 구조에 따른 테이블 정보|
+| aggregateEvents   | 자신이 속해있는 Aggregate의 Events 정보 |
+
+#### fieldDescriptors
+| 변수명               | 변수 역할                  |
+| ----------------- | ---------------------- |
+| name         |  변수 명 |
+| className    | 변수의 데이터 타입 |
+| isKey | 테이블에 대한 Key 값 (Defalut: false) |
+
+
+#### viewFieldDescriptors
+##### CQRS
+| 변수명               | 변수 역할                  |
+| ----------------- | ---------------------- |
+| isKey         | Key 값 (default: false)  |
+| className   | 변수의 데이터 타입 |
+| columnName    | 변수 명 |
+| sourceEvent | 해당 변수의 Event의 정보에서 변수 |
+| eventDirectValue   | sourceEvent발생시 eventDirectValue값을 columnName 값에 매핑 |
+| viewColumnName   | 자신이 속해있는 Aggregate의 정보에서 변수 매핑 |
+| sourceEventColumn   | 자신이 속해있는 Aggregate의 Events 정보 |
+
+##### UI Mashup
+| 변수명               | 변수 역할                  |
+| ----------------- | ---------------------- |
+| isKey         | Key 값 (default: false)  |
+| className   | 변수의 데이터 타입 |
+| columnName    | 변수 명 |
+| sourceRepository   | -업데이트 예정- |
+| repositoryDirectValue   | -업데이트 예정- |
+| hateoas   | -업데이트 예정- |
+| link   | -업데이트 예정- |
+
+
