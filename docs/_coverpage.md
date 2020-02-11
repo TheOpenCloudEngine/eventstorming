@@ -1,5 +1,5 @@
 <!-- _coverpage.md -->
-
+![color](#ffffff)
 <div id="allWrap">
 	<div class="topWrap">
 		<div class="row">
@@ -12,7 +12,7 @@
 			<div class="txts">
 				<div class="tit">EventStorming 2 Code</div>
 				<div class="tit-sub">Online EventStorming  &  MSA Code generation Tool</div>
-				<a class="btn" href="#start">Get Started</a>
+				<a class="btn" href="#getting-started">Get Started</a>
 			</div>
 		</div>
 	</div><!-- //topWrap -->
