@@ -1,5 +1,5 @@
 <!-- _coverpage.md -->
-![color](#ffffff)
+
 <div id="allWrap">
 	<div class="topWrap">
 		<div class="row">
@@ -38,3 +38,5 @@
 <div class="footer">
 	Copyright © uEngine solutions. <span class="clear"></span>All rights reserved.
 </div> 
+
+![color](#ffffff)
