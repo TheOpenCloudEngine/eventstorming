@@ -11,7 +11,7 @@
 			</div>
 			<div class="txts">
 				<div class="tit">MSAEasy</div>
-				<div class="tit-sub">MSA Lifecycle support & EventStorming2Code Solution</div>
+				<div class="tit-sub">MSA Development Starter & EventStorming2Code Solution</div>
 				<a class="btn" href="#getting-started">Get Started</a>
 			</div>
 		</div>
