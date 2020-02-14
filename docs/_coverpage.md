@@ -4,7 +4,7 @@
 	<div class="topWrap">
 		<div class="row">
 			<div class="logo_white">
-				<img src="./media/img/logo_white.png" srcset="./media/img/logo_white.png 1x, ./media/img/logo_white@2x.png 2x" alt="Logo">
+				<img src="./media/img/logo_white11.png" srcset="./media/img/logo_white.png 1x, ./media/img/logo_white11@2x.png 2x" alt="Logo">
 			</div>
 			<div class="by">
 				<span>by </span><span style="font-style:normal;font-weight:bold;">uEngine</span>
