@@ -1,7 +1,7 @@
 
 ## 소개
 
-[MSAEasy](http://eventstorming2code.io) MSAEasy는 마이크로서비스를 적용하려는 기업이 MSA 아키텍처가 가지는 학습곡선(Learning Curve)에 대해 쉽게 접근할 수 있도록 DDD(Domain driven Design) 도구를 통한 손쉬운 도메인 분석/설계 기법과 MSA 개발 효율성을 목적으로 한다.<br/>
+[MSAEasy](http://eventstorming2code.io)는 마이크로서비스를 적용하려는 기업이 MSA 아키텍처가 가지는 학습곡선(Learning Curve)에 대해 쉽게 접근할 수 있도록 DDD(Domain driven Design) 도구를 통한 손쉬운 도메인 분석/설계 기법과 MSA 개발 효율성을 목적으로 한다.<br/>
 MSAEasy는 최근 IBM, Pivotal등 MSA를 선도하는 글로벌 기업이 적용하고 있는, Event-driven한  도메인  분석기법의 모델링 환경을 제공한다. 또한, 모델링 결과로부터 개발자가 비즈니스 로직을 구현할 수 있도록 MSA 템플릿 코드와 클라우드 배포에 필요한  파일들을 동시에 생성해 준다.<br/>
 
 > ![](.//media/image2.png)
@@ -189,6 +189,6 @@ MSAEasy는 분석에서부터 운영에 이르는 MSA 전 생애주기를 지원
 </tr>
 </tbody>
 </table>
-<p align="center"> 표 3 EventStorming2Code 실행 환경 </p>
+<p align="center"> 표 3 MSAEasy 실행 환경 </p>
 
 
