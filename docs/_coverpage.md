@@ -10,8 +10,8 @@
 				<span>by </span><span style="font-style:normal;font-weight:bold;">uEngine</span>
 			</div>
 			<div class="txts">
-				<div class="tit">EventStorming 2 Code</div>
-				<div class="tit-sub">Online EventStorming  &  MSA Code generation Tool</div>
+				<div class="tit">MSAEasy</div>
+				<div class="tit-sub">MSA Lifecycle support & EventStorming2Code Solution</div>
 				<a class="btn" href="#getting-started">Get Started</a>
 			</div>
 		</div>
@@ -19,9 +19,10 @@
 	<div class="boxWrap">
 		<div class="row">
 			<div class="boxs">
-				<div class="box-tit">Collective Event Storming</div>
+				<div class="box-tit">DevOps Lifecycle support</div>
 				<img src="./media/img/img_1.png" srcset="./media/img/img_1.png 1x, ./media/img/img_1@2x.png 2x" alt="Collective Img">
-				<div class="box-txt">이벤트스토밍은 사전 지식없이 단순 스티커(Sticker)만으로 수행하는 도메인 기반(Domain-driven Design) 시스템 분석/설계 기법입니다. <br/>ES2CD는 이러한 이벤트스토밍이 온라인 상에서도 팀 작업이 가능하도록 고안된 웹 기반의 도구입니다.</div>					</div>
+				<div class="box-txt">MSAEasy는 마이크로서비스 구축에서 운영에 필요한 분석, 설계, 구현 및 모니터링을 지원하는 도구로써, 이벤트스토밍 기반 협업을 통해 도메인을 분석/설계하고, 설계된 도메인 모델에서 MSA 소스코드를 자동으로 생성해 줍니다. <br/>
+DevOps환경에 필요한 클라우드 배포용 파이프라인을 자동으로 생성해 주고, 배포된 마이크로서비스의 모니터링이 가능한 대쉬보드를 지원합니다.</div>					</div>
 			<div class="boxs">
 				<div class="box-tit">Model 2 Code 2 Cloud</div>
 				<img src="./media/img/img_2.png" srcset="./media/img/img_2.png 1x, ./media/img/img_2@2x.png 2x" alt="Model Img">
