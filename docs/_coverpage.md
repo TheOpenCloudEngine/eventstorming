@@ -22,7 +22,7 @@
 				<div class="box-tit">Collective EventStorming</div>				
 				<img src="./media/img/img_1.png" srcset="./media/img/img_1.png 1x, ./media/img/img_1@2x.png 2x" alt="Collective Img">
 				<div class="box-txt">MSAEasy는 마이크로서비스 구축에서 운영에 필요한 분석, 설계, 구현 및 모니터링을 지원하는 도구로써, 이벤트스토밍 기반 협업을 통해 도메인을 분석/설계하고, 설계된 도메인 모델에서 MSA 소스코드를 자동으로 생성해 줍니다. <br/>
-분석/ 설계단계에서는 MSAEasy를 사용해 대상 도메인의 경계를 식별하고 Contract(계약)을 .</div>					</div>
+분석/ 설계단계에서는 MSAEasy를 사용해 대상 도메인의 경계를 식별하고 Contract(계약)을 정의합니다.</div>					</div>
 			<div class="boxs">
 				<div class="box-tit">Model 2 Code 2 Cloud</div>				
 				<img src="./media/img/img_2.png" srcset="./media/img/img_2.png 1x, ./media/img/img_2@2x.png 2x" alt="Model Img">
