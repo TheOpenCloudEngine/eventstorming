@@ -1,8 +1,8 @@
 
 ## 소개
 
-[MSAEasy](http://eventstorming2code.io)는 마이크로서비스를 적용하려는 기업이 MSA 아키텍처가 가지는 학습곡선(Learning Curve)에 대해 쉽게 접근할 수 있도록 DDD(Domain driven Design) 도구를 통한 손쉬운 도메인 분석/설계 기법과 MSA 개발 효율성을 목적으로 한다.<br/>
-MSAEasy는 최근 IBM, Pivotal등 MSA를 선도하는 글로벌 기업이 적용하고 있는, Event-driven한  도메인  분석기법의 모델링 환경을 제공한다. 또한, 모델링 결과로부터 개발자가 비즈니스 로직을 구현할 수 있도록 MSA 템플릿 코드와 클라우드 배포에 필요한  파일들을 동시에 생성해 준다.<br/>
+MSAEasy는 마이크로서비스 구축에서 운영에 필요한 분석, 설계, 구현 및 모니터링을 지원하는 도구로써, 이벤트스토밍 기반 협업을 통해 도메인을 분석/설계하고, 설계된 도메인 모델에서 MSA 소스코드를 자동으로 생성해 준다.<br/>
+최근 IBM, Pivotal 등 MSA를 선도하는 글로벌 기업들이 강조하는 Event-driven한 도메인 분석기법의 모델링 환경을 제공하고, 모델링 결과로부터 개발자가 비즈니스 로직을 구현할 수 있도록 MSA 템플릿 코드와 클라우드 배포에 필요한 파일들을 동시에 생성해 준다.<br/>
 
 > ![](.//media/image2.png)
 > <p align="center"> 그림 1 MSAEasy 화면 (예시) </p>
@@ -23,30 +23,19 @@ MSAEasy는 이러한 오프라인 이벤트스토밍이 공간적인 제약과, 
   - **Web-based Event Storming environment**
     
       - 6 types of Event Sticker  
-        (Event, Policy, Command, Aggregate, External System, Read Model)
-    
-      - Bounded Context and Context Mapping (Relation between
-        Microservices)
-    
-      - English word suggestion
-    
+        (Event, Policy, Command, Aggregate, External System, Read Model)    
+      - Bounded Context and Context Mapping (Relation between Microservices)    
+      - English word suggestion    
 
-  - **Code Generation**
-    
-      - MSA Implementation Source Codes (Default: Spring-boot)
-    
-      - Dockerfile
-    
-      - Pipeline YAML file for CI/CD DevOps
-    
+  - **Code Generation**    
+      - MSA Implementation Source Codes (Default: Spring-boot)    
+      - Dockerfile    
+      - Pipeline YAML file for CI/CD DevOps    
       - Helm Chart for Kubernetes Deployment
-
-  - **Custom Templates for Microservice’s Polyglot language**
-    
-      - Template customizing support (Any language is available)
-    
+      
+  - **Custom Templates for Microservice’s Polyglot language**    
+      - Template customizing support (Any language is available)    
       - Local and remote(Github) template add-in support
-
 
 ---
 
