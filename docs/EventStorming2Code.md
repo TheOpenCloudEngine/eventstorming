@@ -1,4 +1,4 @@
-# EventStorming2Code 기반 MSA 개발
+# MSAEasy로 MSA 개발하기
 
 ## 서비스 접속
 [eventstorming2code.io](http://eventstorming2code.io) 에 접속한다. 크롬추천.
